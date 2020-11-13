@@ -15,6 +15,11 @@ const router = new VueRouter({
             path: '/blog',
             name: 'blog',
             component: require('../pages/Blog.vue').default
+        },
+        {
+            path: '/blog/article/:id',
+            name: 'article',
+            component: require('../pages/Article.vue').default
         }
     ]
 })

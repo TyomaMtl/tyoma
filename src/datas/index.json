@@ -1,0 +1,9 @@
+{
+    "articles": [
+        {
+            "id": "first-test-article",
+            "title": "First test article",
+            "date": "13 Nov 2020"
+        }
+    ]
+}
