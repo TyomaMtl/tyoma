@@ -2,7 +2,7 @@
     <div>
         <p>{{ article.title }}</p>
         <p>{{ id }}</p>
-        <md/>
+        <markdown/>
     </div>
 </template>
 
@@ -10,7 +10,6 @@
 import datas from '../datas'
 
 export default {
-    components: { md: () => import(`../articles/first-test-article.md`) },
     data() {
         return {
             id: this.$route.params.id,
@@ -20,6 +19,9 @@ export default {
         article() {
             return datas['articles'].filter(article => article.id == this.$route.params.id)[0]
         }
+    },
+    beforeMount() {
+        this.$options.components.markdown = () => import(`../articles/${this.$route.params.id}.md`)
     }
 }
 </script>

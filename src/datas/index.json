@@ -4,6 +4,11 @@
             "id": "first-test-article",
             "title": "First test article",
             "date": "13 Nov 2020"
+        },
+        {
+            "id": "second-test-article",
+            "title": "enfin",
+            "date": "C'est un grand jour"
         }
     ]
 }
