@@ -17,7 +17,7 @@ const router = new VueRouter({
             component: require('../pages/Blog.vue').default
         },
         {
-            path: '/blog/article/:id',
+            path: '/blog/:id',
             name: 'article',
             component: require('../pages/Article.vue').default
         }
