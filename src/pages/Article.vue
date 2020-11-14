@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="article">
         <markdown/>
     </div>
 </template>

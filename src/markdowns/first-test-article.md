@@ -1,9 +1,9 @@
-### Article de test hehe
+# Article de test hehe
 
 - Here is a list
 - Hihih
 
-## Code
+### Code
 
 ```php
 <?php
