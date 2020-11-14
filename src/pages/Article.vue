@@ -4,6 +4,10 @@
     </div>
 </template>
 
+<style scoped>
+    @import '../../public/css/hljs/mono-blue.css';
+</style>
+
 <script>
 import datas from '../datas'
 
