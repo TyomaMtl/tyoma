@@ -1,8 +1,9 @@
 <template>
-    <div>
-        <h1>Portfolio</h1>
-        <router-link to="blog">Blog</router-link>
-        <p>My name is not Tyoma</p>
-        <p>I'm a fullstack dev from France. <br> I create tailored website and turning your ideas into real digital projects.</p>
+    <div class="portfolio">
+        <div class="logo">Tyoma</div>
+        <div class="jumbo">
+            <h1>My name is not Tyoma</h1>
+        </div>
+        <router-link class="blog-link" to="blog">Blog</router-link>
     </div>
 </template>
