@@ -1,6 +1,11 @@
 <template>
-    <div class="article">
-        <markdown/>
+    <div>
+        <div class="topbar">
+            <router-link class="logo" :to="{ name: 'portfolio' }">Tyoma</router-link>
+        </div>
+        <div class="wrapper">
+            <markdown/>
+        </div>
     </div>
 </template>
 

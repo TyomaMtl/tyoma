@@ -55,12 +55,26 @@ p {
     font-size: 25px;
 }
 
-/* ARTICLE */
-.article {
+/* BLOG TOPBAR */
+.topbar {
+    padding: 10px 50px 10px 50px;
+}
+.topbar > .logo {
+    font-family: 'Megrim';
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+
+/* WRAPPER */
+.wrapper {
     margin: 0 auto;
     font-family: 'Heebo', serif;
     width: 700px;
 }
-.article h1 {
+.wrapper h1 {
     font-size: 40px;
+}
+.wrapper h1.main {
+    font-size: 80px;
 }

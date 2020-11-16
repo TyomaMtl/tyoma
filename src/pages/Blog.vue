@@ -1,11 +1,16 @@
 <template>
     <div>
-        <h1>Blog</h1>
-        <ul>
-            <li v-for="article in articles" :key="article.id">
-                <router-link :to="{ name: 'article', params: { id: article.id }}">{{ article.title }}</router-link>
-            </li>
-        </ul>
+        <div class="topbar">
+            <router-link class="logo" :to="{ name: 'portfolio' }">Tyoma</router-link>
+        </div>
+        <div class="wrapper">
+            <h1 class="main">Blog</h1>
+            <ul>
+                <li v-for="article in articles" :key="article.id">
+                    <router-link :to="{ name: 'article', params: { id: article.id }}">{{ article.title }}</router-link>
+                </li>
+            </ul>
+        </div>
     </div>
 </template>
 
