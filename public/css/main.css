@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Megrim&family=Heebo:wght@300&family=Oranienbaum&display=swap');
+@import url('icons/icons.css');
 
-body, h1 {
+body, h1, ul {
     margin: 0; padding: 0;
 }
 p {
@@ -29,6 +30,19 @@ p {
     text-transform: uppercase;
     color: #FFF;
 }
+.portfolio > .socials {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.portfolio > .socials li {
+    display: inline;
+}
+.portfolio > .socials a {
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+}
 .portfolio > .jumbo {
     margin: 200px;
     width: 600px;
@@ -39,21 +53,28 @@ p {
     color: #FFF;
     text-transform: uppercase;
 }
-.portfolio > .blog-link {
+.portfolio > .link {
     position: absolute;
-    left: 50px;
     font-family: 'Megrim';
-    writing-mode: vertical-rl;
-    text-transform: uppercase;
-    text-orientation: upright;
     text-decoration: none;
     text-align: center;
     color: #ECECEC;
     transition-duration: 0.2s;
 }
-.portfolio > .blog-link:hover {
-    font-size: 25px;
+.portfolio > .link:hover { font-size: 25px; }
+.portfolio > .link.blog {
+    left: 50px;
+    writing-mode: vertical-rl;
+    text-transform: uppercase;
+    text-orientation: upright;
 }
+.portfolio > .link.projects {
+    right: 50px;
+    writing-mode: vertical-rl;
+    text-transform: uppercase;
+    text-orientation: upright;
+}
+
 
 /* BLOG TOPBAR */
 .topbar {
