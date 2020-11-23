@@ -3,12 +3,14 @@
         {
             "id": "first-test-article",
             "title": "First test article",
-            "date": "13 Nov 2020"
+            "date": "13 Nov 2020",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum, enim suscipit suscipit tempus, mi magna consectetur libero, quis pretium nisl urna vitae sapien. Vivamus posuere efficitur augue, lacinia lacinia erat auctor sit amet. Nunc ex quam, maximus et tristique ac, interdum ac mauris. Praesent luctus laoreet turpis, eu bibendum felis. Donec condimentum euismod eros, non finibus eros convallis sed. Maecenas convallis nisi arcu, non faucibus augue cursus vel."
         },
         {
             "id": "second-test-article",
             "title": "enfin",
-            "date": "C'est un grand jour"
+            "date": "C'est un grand jour",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum, enim suscipit suscipit tempus, mi magna consectetur libero, quis pretium nisl urna vitae sapien. Vivamus posuere efficitur augue, lacinia lacinia erat auctor sit amet. Nunc ex quam, maximus et tristique ac, interdum ac mauris. Praesent luctus laoreet turpis, eu bibendum felis. Donec condimentum euismod eros, non finibus eros convallis sed. Maecenas convallis nisi arcu, non faucibus augue cursus vel."
         }
     ]
 }

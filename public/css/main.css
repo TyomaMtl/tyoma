@@ -99,3 +99,24 @@ p {
 .wrapper h1.main {
     font-size: 80px;
 }
+
+
+/* CARD */
+.card { 
+    margin-top: 50px;
+    list-style: none; 
+}
+.card > .date {
+    color: #b4b4b4;
+    font-style: italic;
+}
+.card a {
+    font-size: 30px;
+    color: #000;
+    border-bottom: 1px dotted #000; 
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+.card a:hover {
+    padding-bottom: 5px;
+}
