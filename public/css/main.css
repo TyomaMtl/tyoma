@@ -1,14 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Megrim&family=Heebo:wght@300&family=Oranienbaum&display=swap');
 @import url('icons/icons.css');
 
-body, h1, ul {
+body, h1, h3, ul {
     margin: 0; padding: 0;
+}
+h3 {
+    font-family: "Oranienbaum", serif;
+    font-size: 50px;
 }
 p {
     font-family: 'Heebo';
 }
 * {
     box-sizing: border-box;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: #DFDFDF;
+    background: #22776d;
+}
+::selection {
+    color: #DFDFDF;
+    background: #22776d;
 }
 
 /* PORTFOLIO */
@@ -76,6 +89,42 @@ p {
 }
 
 
+/* SERVICES */
+.services {
+    padding: 0 200px 100px 200px;
+    color: #FFF;
+    background-color: #111111;
+}
+.service-container {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.service {
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+    width: 200px;
+    font-family: "Heebo";
+    color: #FFF;
+}
+.service h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.service i {
+    font-size: 35px;
+}
+.service li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+
 /* ABOUT */
 .about {
     display: flex;
@@ -95,11 +144,6 @@ p {
     letter-spacing: 0.5px;
     color: #FFF;
     text-decoration: none;
-}
-.about h3 {
-    margin: 0; padding: 0;
-    font-family: "Oranienbaum", serif;
-    font-size: 50px;
 }
 .about p {
     letter-spacing: 0.5px;
