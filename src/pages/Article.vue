@@ -3,7 +3,7 @@
         <div class="topbar">
             <router-link class="logo" :to="{ name: 'portfolio' }">Tyoma</router-link>
         </div>
-        <div class="wrapper">
+        <div class="wrapper article">
             <markdown/>
         </div>
     </div>

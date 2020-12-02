@@ -4,10 +4,6 @@
 body, h1, h3, ul {
     margin: 0; padding: 0;
 }
-h3 {
-    font-family: "Oranienbaum", serif;
-    font-size: 50px;
-}
 p {
     font-family: 'Heebo';
 }
@@ -87,6 +83,10 @@ p {
     text-transform: uppercase;
     text-orientation: upright;
 }
+.portfolio h3, .services h3, .about h3 {
+    font-family: "Oranienbaum", serif;
+    font-size: 50px;
+}
 
 
 /* SERVICES */
@@ -151,13 +151,33 @@ p {
 }
 
 
+/* FOOTER */
+footer {
+    padding: 20px 200px 20px 200px;
+    font-family: "Heebo";
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999;
+    background-color: #111111;
+}
+
+
+
 /* BLOG TOPBAR */
 .topbar {
-    padding: 10px 50px 10px 50px;
+    position: fixed;
+    padding: 20px 0 20px 0;
+    left: 0; top: 0; bottom: 0;
+    width: 50px;
+    text-align: center;
+    border-right: 1px solid #ECECEC;
 }
 .topbar > .logo {
     font-family: 'Megrim';
     text-transform: uppercase;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
     text-decoration: none;
     color: #000;
 }
@@ -173,6 +193,21 @@ p {
 }
 .wrapper h1.main {
     font-size: 80px;
+}
+
+
+/* ARTICLE */
+.article, .blog {
+    margin-top: 50px;
+}
+.article h1 {
+    margin-bottom: 10px;
+}
+.article li {
+    margin-left: 30px;
+}
+.article h3 {
+    margin-top: 20px;
 }
 
 

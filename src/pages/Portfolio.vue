@@ -62,5 +62,6 @@
                 <p>I'm a fullstack developper from France. I create tailored website and help you turning your ideas into real digital project</p>
             </div>
         </div>
+        <footer>&copy; 2020 - coded with love</footer>
     </div>
 </template>

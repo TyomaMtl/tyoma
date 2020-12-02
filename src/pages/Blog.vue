@@ -3,7 +3,7 @@
         <div class="topbar">
             <router-link class="logo" :to="{ name: 'portfolio' }">Tyoma</router-link>
         </div>
-        <div class="wrapper">
+        <div class="wrapper blog">
             <h1 class="main">Blog</h1>
             <ul>
                 <li class="card" v-for="article in articles" :key="article.id">
