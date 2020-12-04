@@ -83,45 +83,9 @@ p {
     text-transform: uppercase;
     text-orientation: upright;
 }
-.portfolio h3, .services h3, .about h3 {
+.portfolio h3, .about h3 {
     font-family: "Oranienbaum", serif;
     font-size: 50px;
-}
-
-
-/* SERVICES */
-.services {
-    padding: 0 200px 100px 200px;
-    color: #FFF;
-    background-color: #111111;
-}
-.service-container {
-    display: flex;
-    margin-top: 100px;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.service {
-    display: block;
-    text-align: center;
-    margin-bottom: 50px;
-    width: 200px;
-    font-family: "Heebo";
-    color: #FFF;
-}
-.service h4 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 16px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-.service i {
-    font-size: 35px;
-}
-.service li {
-    list-style: none;
-    margin-bottom: 10px;
 }
 
 
