@@ -20,6 +20,7 @@ p {
     background: #22776d;
 }
 
+
 /* PORTFOLIO */
 .portfolio {
     display: flex;
@@ -115,19 +116,6 @@ p {
 }
 
 
-/* FOOTER */
-footer {
-    padding: 20px 200px 20px 200px;
-    font-family: "Heebo";
-    font-size: 12px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #999;
-    background-color: #111111;
-}
-
-
-
 /* BLOG TOPBAR */
 .topbar {
     position: fixed;
@@ -193,4 +181,88 @@ footer {
 }
 .card a:hover {
     padding-bottom: 5px;
+}
+
+
+/* PROJECTS */
+section.projects {
+    display: flex;
+    margin-left: 70px;
+    margin-top: 15vh;
+    width: calc(100% - 70px);
+    height: 70vh;
+}
+.timeline { padding: 0 50px 0 50px; }
+.timeline p {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.timeline li {
+    list-style: none;
+    font-family: "Oranienbaum", sans-serif;
+    font-size: 80px;
+    cursor: pointer;
+}
+.project-wrapper::-webkit-scrollbar { display: none; }
+.project-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    width: auto;
+    overflow-x: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.project {
+    position: relative;
+    margin: 0 25px 0 25px;
+    height: 100%;
+    min-width: 350px;
+    border-radius: 1em;
+    background-color: #ECECEC;
+    overflow: hidden;
+}
+.project img {
+    position: absolute;
+	left: 50%;
+	top: 50%;
+	width: auto;
+	height: 110%;
+    -webkit-transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
+			transform: translate(-50%,-50%);
+}
+.project > .content {
+    display: block;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    z-index: 1;
+}
+.project > .content h4 {
+    position: absolute;
+    left: 25px; bottom: 12px;
+    font-family: "Oranienbaum", sans-serif;
+    font-size: 25px;
+    color: #FFF;
+}
+.project > .content p {
+    position: absolute;
+    left: 25px; bottom: 0;
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: 1px;
+    color: #a1a1a1;
+}
+
+/* FOOTER */
+footer {
+    padding: 20px 200px 20px 200px;
+    font-family: "Heebo";
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999;
+    background-color: #111111;
 }

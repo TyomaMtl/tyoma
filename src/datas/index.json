@@ -12,5 +12,39 @@
             "date": "C'est un grand jour",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum, enim suscipit suscipit tempus, mi magna consectetur libero, quis pretium nisl urna vitae sapien. Vivamus posuere efficitur augue, lacinia lacinia erat auctor sit amet. Nunc ex quam, maximus et tristique ac, interdum ac mauris. Praesent luctus laoreet turpis, eu bibendum felis. Donec condimentum euismod eros, non finibus eros convallis sed. Maecenas convallis nisi arcu, non faucibus augue cursus vel."
         }
+    ],
+    "projects": [
+        {
+            "id": "cube-gallery",
+            "title": "Cube Gallery",
+            "year": "2020",
+            "url": "https://github.com/TyomaMtl/cube-gallery",
+            "cover": "https://source.unsplash.com/oARTWhz1ACc/",
+            "technologies": ["Javascript"]
+        },
+        {
+            "id": "les-belles-balades",
+            "title": "Les Belles Balades",
+            "year": "2020",
+            "url": "https://lesbellesbalades.fr",
+            "cover": "https://lesbellesbalades.fr/images/uploads/gallery/img-5f958e0c6d784.jpeg",
+            "technologies": ["Symfony 5", "Javascript"]
+        },
+        {
+            "id": "a-la-carte",
+            "title": "À la carte",
+            "year": "2019",
+            "url": "https://a-lacarte.com",
+            "cover": "https://source.unsplash.com/fk6IiypMWss",
+            "technologies": ["Vue.js", "Symfony 5", "API Platform"]
+        },
+        {
+            "id": "thepetrolhead",
+            "title": "The Petrolhead",
+            "year": "2017",
+            "url": "https://thepetrolhead.fr",
+            "cover": "https://thepetrolhead.fr/images/landing.jpg",
+            "technologies": ["Symfony 5"]
+        }
     ]
 }

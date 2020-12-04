@@ -11,7 +11,7 @@
                 <h1>My name is not Tyoma</h1>
             </div>
             <router-link class="link blog" :to=" { name: 'blog' }">Blog</router-link>
-            <router-link class="link projects" :to=" { name: 'blog' }">Projects</router-link>
+            <router-link class="link projects" :to=" { name: 'projects' }">Projects</router-link>
         </div>
         <div class="about">
             <div>
