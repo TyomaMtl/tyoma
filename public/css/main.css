@@ -47,6 +47,7 @@ p {
 }
 .portfolio > .socials li {
     display: inline;
+    margin-left: 15px;
 }
 .portfolio > .socials a {
     font-size: 20px;
