@@ -164,6 +164,62 @@ p {
 }
 
 
+/* ARTICLE INFO */
+.article-info {
+    display: block;
+    position: fixed;
+    top: 60px;
+    left: 100px;
+    width: 200px;
+}
+.article-info > .back {
+    display: inline-block;
+    padding: 0 15px 0 15px;
+    height: 30px;
+    line-height: 30px;
+    font-family: "Heebo";
+    font-size: 14px;
+    color: #8a8a8a;
+    vertical-align: bottom;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #ECECEC;
+    border-radius: 15px;
+    transition-duration: 0.2s;
+}
+.article-info > .back:hover {
+    color: #000;
+    border: 1px solid #444;
+}
+.article-info > .tags span {
+    margin-right: 2px;
+    padding: 2px 8px 2px 8px;
+    font-family: "Heebo";
+    font-size: 12px;
+    border-radius: 1em;
+    background-color: #000;
+    color: #FFF;
+    cursor: default;
+}
+.article-info h4 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-family: "Heebo";
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.article-info ul { margin-left: 15px; }
+.article-info li { margin-bottom: 2.5px; }
+.article-info ul li a {
+    font-family: "Heebo";
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+
+
+
 /* CARD */
 .card { 
     margin-top: 50px;
