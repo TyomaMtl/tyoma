@@ -21,6 +21,7 @@ export default {
         let articles = datas['articles'].filter(article => article.id == this.$route.params.id)[0]
         if (articles != undefined) {
             this.$options.components.markdown = () => import(`../markdowns/${this.$route.params.id}.md`)
+            document.title = articles.title + ' - Tyoma'
         } else {
             this.$options.components.markdown = () => import(`../markdowns/default.md`)
         }

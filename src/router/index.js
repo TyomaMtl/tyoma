@@ -9,12 +9,18 @@ const router = new VueRouter({
         {
             path: '/',
             name: 'portfolio',
-            component: require('../pages/Portfolio.vue').default
+            component: require('../pages/Portfolio.vue').default,
+            meta: {
+                title: 'Portfolio - Tyoma Fullstack Developper'
+            }
         },
         {
             path: '/blog',
             name: 'blog',
-            component: require('../pages/Blog.vue').default
+            component: require('../pages/Blog.vue').default,
+            meta: {
+                title: 'Blog - Tyoma'
+            }
         },
         {
             path: '/blog/:id',
@@ -24,9 +30,17 @@ const router = new VueRouter({
         {
             path: '/projects',
             name: 'projects',
-            component: require('../pages/Projects.vue').default
+            component: require('../pages/Projects.vue').default,
+            meta: {
+                title: 'Projects - Tyoma Fullstack Developper'
+            }
         }
     ]
+})
+
+router.beforeEach((to, from, next) => {
+    document.title = to.meta.title ?? 'Tyoma'
+    next()
 })
 
 export default router
