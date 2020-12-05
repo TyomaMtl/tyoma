@@ -1,20 +1,11 @@
 {
     "articles": [
         {
-            "id": "first-test-article",
-            "title": "First test article",
-            "date": "13 Nov 2020",
-            "lang": "en",
-            "tags": ["lowtech", "html", "ecology"],
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum, enim suscipit suscipit tempus, mi magna consectetur libero, quis pretium nisl urna vitae sapien. Vivamus posuere efficitur augue, lacinia lacinia erat auctor sit amet. Nunc ex quam, maximus et tristique ac, interdum ac mauris. Praesent luctus laoreet turpis, eu bibendum felis. Donec condimentum euismod eros, non finibus eros convallis sed. Maecenas convallis nisi arcu, non faucibus augue cursus vel."
-        },
-        {
-            "id": "second-test-article",
-            "title": "enfin",
-            "date": "C'est un grand jour",
-            "lang": "fr",
-            "tags": ["blog", "vue.js", "javascript"],
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum, enim suscipit suscipit tempus, mi magna consectetur libero, quis pretium nisl urna vitae sapien. Vivamus posuere efficitur augue, lacinia lacinia erat auctor sit amet. Nunc ex quam, maximus et tristique ac, interdum ac mauris. Praesent luctus laoreet turpis, eu bibendum felis. Donec condimentum euismod eros, non finibus eros convallis sed. Maecenas convallis nisi arcu, non faucibus augue cursus vel."
+            "id": "vuejs-markdown-blog",
+            "title": "Markdown blog avec Vue.js",
+            "date": "5 décembre 2020",
+            "tags": ["vue.js", "markdown"],
+            "description": "La particularité de ce site est qu'il ne possède pas de back-office ni de base de données. La liste des articles est enregistrée dans un basique fichier JSON et le contenu de l'article dans un fichier markdown (.md)."
         }
     ],
     "projects": [

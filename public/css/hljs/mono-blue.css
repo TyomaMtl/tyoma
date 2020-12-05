@@ -4,6 +4,7 @@ pre {
     padding: 25px;
     border-radius: 0.7em;
     background-color: #eaeef3;
+    overflow-x: auto;
 }
 .hljs {
     display: block;
