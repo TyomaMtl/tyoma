@@ -11,7 +11,7 @@
             <div class="project-wrapper" ref="projects" v-on:scroll="handleScroll()">
                 <div v-for="project in projects" :key="project.id" class="project" :ref="project.year" :data-year="project.year">
                     <img :src="project.cover">
-                    <a class="content" href="#">
+                    <a class="content" :href="project.url" target="_blank">
                         <h4>{{ project.title }}</h4>
                         <p>{{ project.year }}</p>
                     </a>
