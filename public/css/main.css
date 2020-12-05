@@ -137,7 +137,7 @@ p {
 
 /* WRAPPER */
 .wrapper {
-    margin: 0 auto;
+    margin: 50px auto;
     font-family: 'Heebo', serif;
     width: 700px;
 }
@@ -150,9 +150,6 @@ p {
 
 
 /* ARTICLE */
-.article, .blog {
-    margin-top: 50px;
-}
 .article h1 {
     margin-bottom: 10px;
 }
