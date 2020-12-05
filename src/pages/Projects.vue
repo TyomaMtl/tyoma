@@ -12,8 +12,13 @@
                 <div v-for="project in projects" :key="project.id" class="project" :ref="project.year" :data-year="project.year">
                     <img :src="project.cover">
                     <a class="content" :href="project.url" target="_blank">
-                        <h4>{{ project.title }}</h4>
-                        <p>{{ project.year }}</p>
+                        <div class="info">
+                            <h4>{{ project.title }}</h4>
+                            <p>{{ project.year }}</p>
+                            <div class="technologies">
+                                <span v-for="tech in project.technologies" :key="tech">{{ tech }}</span>
+                            </div>
+                        </div>
                     </a>
                 </div>
             </div>
