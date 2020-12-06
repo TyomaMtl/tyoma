@@ -152,12 +152,31 @@ p {
 /* ARTICLE */
 .article h1 {
     margin-bottom: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+.article p {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 32px;
 }
 .article li {
     margin-left: 30px;
 }
 .article h3 {
     margin-top: 20px;
+}
+.article code {
+    padding: 5px 10px 5px 10px;
+    font-size: 16px;
+    background-color: #eaeef3;
+    border-radius: 0.5em;
+}
+.article a {
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px dotted #000;
 }
 
 
