@@ -114,21 +114,36 @@ p {
 }
 
 
-/* BLOG TOPBAR */
-.topbar {
+/* SIDEBAR */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
     padding: 20px 0 20px 0;
     left: 0; top: 0; bottom: 0;
     width: 50px;
-    text-align: center;
     border-right: 1px solid #ECECEC;
 }
-.topbar > .logo {
+.sidebar > .logo {
     font-family: 'Megrim';
     text-transform: uppercase;
     writing-mode: vertical-rl;
     text-orientation: upright;
     text-decoration: none;
+    color: #000;
+}
+.sidebar > .socials li { 
+    margin-top: 10px;
+    list-style: none; 
+}
+.sidebar > .socials a {
+    color: #5C5C5C;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+.sidebar > .socials a:hover {
     color: #000;
 }
 
@@ -214,23 +229,6 @@ p {
     color: #FFF;
     cursor: default;
 }
-.article-info h4 {
-    margin-top: 50px;
-    margin-bottom: 10px;
-    font-family: "Heebo";
-    font-size: 14px;
-    text-transform: uppercase;
-}
-.article-info ul { margin-left: 15px; }
-.article-info li { margin-bottom: 2.5px; }
-.article-info ul li a {
-    font-family: "Heebo";
-    font-size: 14px;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #000;
-}
-
 
 
 /* CARD */

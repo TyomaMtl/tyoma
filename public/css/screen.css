@@ -1,3 +1,4 @@
+/* 1400 */
 @media only screen and (max-width: 1400px) {
     .article-info {
         display: flex;
@@ -9,21 +10,16 @@
         left: 0;
         margin: 0 auto 0 auto;
     }
-    .article-info h4 {
-        margin-top: 0;
-    }
-    .wrapper.article {
-        margin-top: 100px;
-    }
+    .wrapper.article { margin-top: 100px; }
 }
+
+/* 900 */
 @media only screen and (max-width: 900px) {
-    .wrapper {
-        width: 500px;
-    }
-    .article-info {
-        width: 500px;
-    }
+    .wrapper { width: 500px; }
+    .article-info { width: 500px; }
 }
+
+/* 850 */
 @media only screen and (max-width: 850px) {
     .portfolio > .jumbo {
         margin: 150px;
@@ -38,42 +34,39 @@
         text-align: center!important;
     }
 }
+
+/* 750 */
 @media only screen and (max-width: 750px) {
     .timeline li {
         margin-bottom: 30px;
         font-size: 40px;
     }
 }
+
+/* 650 */
 @media only screen and (max-width: 650px) {
-    .portfolio > .jumbo {
-        margin: 100px;
-    }
+    .portfolio > .jumbo { margin: 100px; }
     .portfolio > .link {
         writing-mode: initial;
         text-orientation: initial;
     }
-    .portfolio > .link.blog {
-        bottom: 50px;
-    }
-    .portfolio > .link.projects {
-        bottom: 50px;
-    }
-    .about div {
-        width: 80%;
-    }
+    .portfolio > .link.blog, .portfolio > .link.projects { bottom: 50px; }
+
+    .about div { width: 80%; }
+    
     .wrapper, .article-info {
         padding-left: 100px;
         padding-right: 50px;
         width: 100%;
     }
-    .card p:last-child {
-        text-align: justify;
-    }
+    .card p:last-child { text-align: justify; }
     footer {
         padding: 20px 0 20px 0;
         text-align: center;
     }
 }
+
+/* 600 */
 @media only screen and (max-width: 600px) {
     section.projects {
         flex-direction: column-reverse;
@@ -83,12 +76,8 @@
         width: calc(100% - 50px);
         height: 100vh;
     }
-    .project-wrapper {
-        height: 50%;
-    }
-    .timeline li {
-        margin-bottom: 0;
-    }
+    .project-wrapper { height: 50%; }
+    .timeline li { margin-bottom: 0; }
     .project {
         position: relative;
         margin: 0 25px 0 25px;
@@ -98,24 +87,18 @@
         background-color: #ECECEC;
         overflow: hidden;
     }
-    .project > .content {
-        bottom: 0px;
-    }
-    .project > .content h4 {
-        font-size: 25px;
-    }
-    .project > .content > .info > .technologies span {
-        font-size: 10px;
-    }
+    .project > .content { bottom: 0px; }
+    .project > .content h4 { font-size: 25px; }
+    .project > .content > .info > .technologies span { font-size: 10px; }
 }
+
+/* 450 */
 @media only screen and (max-width: 450px) {
-    .portfolio > .jumbo {
-        margin: 50px;
-    }
-    .about a {
-        font-size: 30px;
-    }
+    .portfolio > .jumbo { margin: 50px; }
+    .about a { font-size: 30px; }
 }
+
+/* 400 */
 @media only screen and (max-width: 400px) {
     .wrapper, .article-info {
         padding-left: 70px;

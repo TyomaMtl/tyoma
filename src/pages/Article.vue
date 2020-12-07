@@ -1,20 +1,11 @@
 <template>
     <div>
-        <div class="topbar">
-            <router-link class="logo" :to="{ name: 'portfolio' }">Tyoma</router-link>
-        </div>
+        <sidebar/>
         <div class="article-info">
             <router-link class="back" :to="{ name: 'blog' }"><i class="icon-back"></i> Back</router-link>
             <p><i class="icon-clock"></i> <em>{{ article.date }}</em><br>{{ article.lang == 'fr' ? 'Traine your french' : 'This article is in english'}}</p>
             <div class="tags">
                 <span v-for="tag in article.tags" :key="tag">#{{ tag }}</span>
-            </div>
-            <div>
-                <h4>Follow Me</h4>
-                <ul>
-                    <li><a target="_blank" href="https://twitter.com/TyomaMtl"><i class="icon-twitter"></i> Twitter</a></li>
-                    <li><a target="_blank" href="https://github.com/TyomaMtl"><i class="icon-github"></i> Github</a></li>
-                </ul>
             </div>
         </div>
         <div class="wrapper article">
@@ -29,8 +20,12 @@
 
 <script>
 import datas from '../datas'
+import sidebar from '../components/Sidebar'
 
 export default {
+    components: {
+        sidebar: sidebar
+    },
     beforeCreate: function () {
         let articles = datas['articles'].filter(article => article.id == this.$route.params.id)[0]
         if (articles != undefined) {
