@@ -1,8 +1,6 @@
 <template>
      <div>
-        <div class="topbar">
-            <router-link class="logo" :to="{ name: 'portfolio' }">Tyoma</router-link>
-        </div>
+        <sidebar/>
         <section class="projects">
             <ul class="timeline">
                 <p>Projects</p>
@@ -28,8 +26,12 @@
 
 <script>
 import datas from '../datas'
+import sidebar from '../components/Sidebar'
 
 export default {
+    components: {
+        sidebar
+    },
     data () {
         return {
             currentYear: new Date().getFullYear(),
