@@ -71,19 +71,16 @@ p {
     text-align: center;
     color: #ECECEC;
     transition-duration: 0.2s;
+    writing-mode: vertical-rl;
+    text-transform: uppercase;
+    text-orientation: upright;
 }
 .portfolio > .link:hover { font-size: 25px; }
 .portfolio > .link.blog {
     left: 50px;
-    writing-mode: vertical-rl;
-    text-transform: uppercase;
-    text-orientation: upright;
 }
 .portfolio > .link.projects {
     right: 50px;
-    writing-mode: vertical-rl;
-    text-transform: uppercase;
-    text-orientation: upright;
 }
 .portfolio h3, .about h3 {
     font-family: "Oranienbaum", serif;

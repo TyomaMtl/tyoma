@@ -9,11 +9,13 @@
             <div class="tags">
                 <span v-for="tag in article.tags" :key="tag">#{{ tag }}</span>
             </div>
-            <h4>Follow Me</h4>
-            <ul>
-                <li><a target="_blank" href="https://twitter.com/TyomaMtl"><i class="icon-twitter"></i> Twitter</a></li>
-                <li><a target="_blank" href="https://github.com/TyomaMtl"><i class="icon-github"></i> Github</a></li>
-            </ul>
+            <div>
+                <h4>Follow Me</h4>
+                <ul>
+                    <li><a target="_blank" href="https://twitter.com/TyomaMtl"><i class="icon-twitter"></i> Twitter</a></li>
+                    <li><a target="_blank" href="https://github.com/TyomaMtl"><i class="icon-github"></i> Github</a></li>
+                </ul>
+            </div>
         </div>
         <div class="wrapper article">
             <markdown/>

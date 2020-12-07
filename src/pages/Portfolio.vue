@@ -21,7 +21,7 @@
             <div>
                 <h3>About</h3>
                 <p>My name is not Tyoma</p> 
-                <p>I'm a fullstack developper from France building the web since 2017. <br> I love to create smart, beautiful and simple things.</p>
+                <p>I'm a fullstack developper from France building the web since 2017. I love to create smart, beautiful and simple things.</p>
                 <p>I'm skilled with <em>Vue.js</em> and <em>Symfony 5</em></p>
             </div>
         </div>
