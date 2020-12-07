@@ -5,6 +5,7 @@
             "title": "Markdown blog avec Vue.js",
             "date": "5 décembre 2020",
             "tags": ["vue.js", "markdown"],
+            "lang": "fr",
             "description": "La particularité de ce site est qu'il ne possède pas de back-office ni de base de données. La liste des articles est enregistrée dans un basique fichier JSON et le contenu de l'article dans un fichier markdown (.md)."
         }
     ],
