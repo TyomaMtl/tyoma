@@ -10,6 +10,10 @@
         left: 0;
         margin: 0 auto 0 auto;
     }
+    .article-info p {
+        text-align: right;
+        font-size: 12px;
+    }
     .wrapper.article { margin-top: 100px; }
 }
 

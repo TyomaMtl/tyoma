@@ -219,7 +219,7 @@ p {
     color: #000;
     border: 1px solid #444;
 }
-.article-info > .tags span {
+.article-info > div > .tags span {
     margin-right: 2px;
     padding: 2px 8px 2px 8px;
     font-family: "Heebo";
