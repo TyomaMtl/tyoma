@@ -25,6 +25,6 @@
                 <p>I'm skilled with <em>Vue.js</em> and <em>Symfony 5</em></p>
             </div>
         </div>
-        <footer>&copy; 2020 - coded with love</footer>
+        <footer>&copy; 2020-2021 - coded with love</footer>
     </div>
 </template>
