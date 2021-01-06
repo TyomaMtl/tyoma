@@ -2,7 +2,7 @@
     <div>
         <sidebar/>
         <div class="article-info">
-            <router-link class="back" :to="{ name: 'blog' }"><i class="icon-back"></i> Back</router-link>
+            <router-link class="back" :to="{ name: 'blog' }"><i class="icon-back"></i> {{ $t('back') }}</router-link>
             <div>
                 <p><i class="icon-clock"></i> <em>{{ article.date }}</em><br>{{ article.lang == 'fr' ? 'Traine your french' : 'This article is in english'}}</p>
                 <div class="tags">

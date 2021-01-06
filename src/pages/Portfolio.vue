@@ -9,20 +9,19 @@
                 </ul>
             </div>
             <div class="jumbo">
-                <h1>A dev, you found</h1>
+                <h1>{{ $t('jumbo') }}</h1>
             </div>
             <router-link class="link blog" :to=" { name: 'blog' }">Blog</router-link>
-            <router-link class="link projects" :to=" { name: 'projects' }">Projects</router-link>
+            <router-link class="link projects" :to=" { name: 'projects' }">{{ $t('projects') }}</router-link>
         </div>
         <div class="about">
             <div>
                 <a href="mailto:hello@tyoma.co">hello@tyoma.co</a>
             </div>
             <div>
-                <h3>About</h3>
-                <p>My name is not Tyoma</p> 
-                <p>I'm a fullstack developper from France building the web since 2017. I love to create smart, beautiful and simple things.</p>
-                <p>I'm skilled with <em>Vue.js</em> and <em>Symfony 5</em></p>
+                <h3>{{ $t('about') }}</h3>
+                <p>{{ $t('description') }}</p>
+                <p>{{ $t('skilled') }}</p>
             </div>
         </div>
         <footer>&copy; 2020-2021 - coded with love</footer>

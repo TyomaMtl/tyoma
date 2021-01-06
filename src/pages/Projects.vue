@@ -3,7 +3,7 @@
         <sidebar/>
         <section class="projects">
             <ul class="timeline">
-                <p>Projects</p>
+                <p>{{ $t('projects') }}</p>
                 <li :class="[year == currentYear ? 'active' : '']" v-for="year in years" :key="year" v-on:click="scrollToYear(year)">{{ year }}</li>
             </ul>
             <div class="project-wrapper" ref="projects" v-on:scroll="handleScroll()">
