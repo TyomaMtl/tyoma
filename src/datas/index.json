@@ -11,6 +11,14 @@
     ],
     "projects": [
         {
+            "id": "aston-registry",
+            "title": "Aston Registry",
+            "year": "2021",
+            "url": "https://astonregistry.com",
+            "cover": "https://source.unsplash.com/tvqXrmT6FFI",
+            "technologies": ["Nuxt.js", "Symfony 5", "API Platform"]
+        },
+        {
             "id": "cube-gallery",
             "title": "Cube Gallery",
             "year": "2020",
