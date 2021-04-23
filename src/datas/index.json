@@ -1,6 +1,14 @@
 {
     "articles": [
         {
+            "id": "deployer-nuxt-app-ssr-hebergement-mutualise",
+            "title": "Deployer une app Nuxt.js SSR sur un hébergement mutualisé",
+            "date": "19 avril 2021",
+            "tags": ["vue.js", "nuxt.js", "hosting"],
+            "lang": "fr",
+            "description": "En général, les hébergements mutualisés, serveurs partagés ou share hosting en anglais, sont des serveurs Apache avec des langages assez communs pour le serveur, notamment PHP. Alors quand on souhaite déployer une application qui fonctionne en JavaScript pour le front mais aussi pour le back, les ennuies commences. Tel est le cas pour une application Nuxt.js."
+        },
+        {
             "id": "vuejs-markdown-blog",
             "title": "Markdown blog avec Vue.js",
             "date": "5 décembre 2020",
