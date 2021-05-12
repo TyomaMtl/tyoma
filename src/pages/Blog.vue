@@ -1,10 +1,11 @@
 <template>
     <div>
-        <sidebar/>
+        <navbar/>
         <div class="wrapper blog">
             <h1 class="main">Blog</h1>
             <ul>
                 <li class="card" v-for="article in articles" :key="article.id">
+                    <p>Article nr. 001</p>
                     <router-link :to="{ name: 'article', params: { id: article.id }}">{{ article.title }}</router-link>
                     <p class="date"><i class="icon-clock"></i> {{ article.date }}</p>
                     <p>{{ article.description }}</p>
@@ -16,11 +17,11 @@
 
 <script>
 import datas from '../datas'
-import sidebar from '../components/Sidebar'
+import navbar from '../components/NavBar'
 
 export default {
     components: {
-        sidebar: sidebar
+        navbar
     },
     data () {
         return {

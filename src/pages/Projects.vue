@@ -1,6 +1,6 @@
 <template>
      <div>
-        <sidebar/>
+        <navbar/>
         <section class="projects">
             <ul class="timeline">
                 <p>{{ $t('projects') }}</p>
@@ -26,11 +26,11 @@
 
 <script>
 import datas from '../datas'
-import sidebar from '../components/Sidebar'
+import navbar from '../components/NavBar'
 
 export default {
     components: {
-        sidebar
+        navbar
     },
     data () {
         return {

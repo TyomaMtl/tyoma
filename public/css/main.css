@@ -11,13 +11,18 @@ p {
     box-sizing: border-box;
 }
 
+:root {
+    --green: #22776d;
+    --dark: #111111;
+}
+
 ::-moz-selection { /* Code for Firefox */
-    color: #DFDFDF;
-    background: #22776d;
+    color: #eeeeee;
+    background: var(--green);
 }
 ::selection {
-    color: #DFDFDF;
-    background: #22776d;
+    color: #eeeeee;
+    background: var(--green);
 }
 
 
@@ -95,7 +100,7 @@ p {
     align-items: center;
     padding: 0 200px 100px 200px;
     color: #FFF;
-    background-color: #111111;
+    background-color: var(--dark);
 }
 .about div { width: 50%; }
 .about div:first-child { text-align: left; }
@@ -111,40 +116,6 @@ p {
 .about p {
     letter-spacing: 0.5px;
     line-height: 30px;
-}
-
-
-/* SIDEBAR */
-.sidebar {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    padding: 20px 0 20px 0;
-    left: 0; top: 0; bottom: 0;
-    width: 50px;
-    border-right: 1px solid #ECECEC;
-}
-.sidebar > .logo {
-    font-family: 'Megrim';
-    text-transform: uppercase;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    text-decoration: none;
-    color: #000;
-}
-.sidebar > .socials li { 
-    margin-top: 10px;
-    list-style: none; 
-}
-.sidebar > .socials a {
-    color: #5C5C5C;
-    text-decoration: none;
-    transition-duration: 0.2s;
-}
-.sidebar > .socials a:hover {
-    color: #000;
 }
 
 /* WRAPPER */
@@ -163,7 +134,7 @@ p {
 
 /* ARTICLE */
 .article h1 {
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     font-size: 50px;
     text-align: center;
 }
@@ -174,21 +145,53 @@ p {
 }
 .article li {
     margin-left: 30px;
+    margin-bottom: 10px;
+}
+.article h2 {
+    margin-top: 50px;
+    font-size: 30px;
 }
 .article h3 {
     margin-top: 20px;
 }
 .article code {
     padding: 5px 10px 5px 10px;
-    font-size: 16px;
+    font-size: 14px;
     background-color: #eaeef3;
     border-radius: 0.5em;
 }
 .article a {
     font-weight: bold;
-    color: #000;
     text-decoration: none;
-    border-bottom: 1px dotted #000;
+    border-bottom: 1px dotted var(--dark);
+}
+.article > .date {
+    display: block;
+    position: relative;
+    margin: 0 auto 30px auto;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: var(--dark);
+}
+.article > .date:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 10px; left: 125px;
+    height: 1px;
+    width: 20%;
+    background-color: var(--dark);
+}
+.article > .date:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 9px; right: 125px;
+    height: 1px;
+    width: 20%;
+    background-color: var(--dark);
 }
 
 
@@ -216,7 +219,7 @@ p {
     transition-duration: 0.2s;
 }
 .article-info > .back:hover {
-    color: #000;
+    color: var(--dark);
     border: 1px solid #444;
 }
 .article-info > div > .tags span {
@@ -225,7 +228,7 @@ p {
     font-family: "Heebo";
     font-size: 12px;
     border-radius: 1em;
-    background-color: #000;
+    background-color: var(--dark);
     color: #FFF;
     cursor: default;
 }
@@ -240,24 +243,27 @@ p {
     color: #b4b4b4;
     font-style: italic;
 }
+.card p:first-child {
+    font-family: 'Oranienbaum';
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+}
 .card a {
     font-size: 30px;
-    color: #000;
-    border-bottom: 1px dotted #000; 
     text-decoration: none;
     transition-duration: 0.2s;
-}
-.card a:hover {
-    padding-bottom: 5px;
+    color: var(--dark);
+    border-bottom: 1px dotted var(--dark);
 }
 
 
 /* PROJECTS */
 section.projects {
     display: flex;
-    margin-left: 70px;
-    margin-top: 15vh;
-    width: calc(100% - 70px);
+    margin-left: 30px;
+    margin-top: 8vh;
+    width: calc(100% - 30px);
     height: 70vh;
 }
 .timeline { padding: 0 50px 0 50px; }
@@ -275,7 +281,7 @@ section.projects {
     transition-duration: 0.3s;
 }
 .timeline li:hover { color: #C4C4C4; }
-.timeline li.active { color: #000; }
+.timeline li.active { color: var(--dark); }
 .project-wrapper::-webkit-scrollbar { display: none; }
 .project-wrapper {
     display: flex;
@@ -356,5 +362,5 @@ footer {
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #999;
-    background-color: #111111;
+    background-color: var(--dark);
 }
