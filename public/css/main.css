@@ -55,13 +55,21 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 200px 100px 200px;
+    padding: 0 80px 100px 200px;
     color: #FFF;
     background-color: var(--dark);
 }
-.about div { width: 50%; }
-.about div:first-child { text-align: left; }
-.about div:last-child { text-align: right; }
+.about div:first-child { 
+    text-align: left; 
+    width: 35%;
+}
+.about div:last-child { 
+    text-align: right; 
+    width: 60%;
+}
+.about div:last-child span {
+    color: #FFF;
+}
 .about a {
     font-family: "Oranienbaum";
     font-style: italic;
@@ -73,6 +81,7 @@ p {
 .about p {
     letter-spacing: 0.5px;
     line-height: 30px;
+    color: #8B8B8B;
 }
 
 /* WRAPPER */

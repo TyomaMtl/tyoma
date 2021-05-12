@@ -24,9 +24,12 @@
                 <a href="mailto:hello@tyoma.co">hello@tyoma.co</a>
             </div>
             <div>
-                <h3>{{ $t('about') }}</h3>
-                <p>{{ $t('description') }}</p>
-                <p>{{ $t('skilled') }}</p>
+                <p>Je suis un <span>dev, front, back, fullstack…</span> a vrai dire je ne sais pas moi-même. Du moment que créer quelque chose ! 
+                Mais je maîtrise plutôt bien <span>Vue.js</span> et <span>Symfony 5</span>. J’ai une mascotte aussi, c’est le merle noir. 
+                Pourquoi ? Parce que je suis fasciné d'entendre cet oiseau chanter. Mais ça, vous vous en foutez ! Vous voulez savoir si je sais 
+                coder. Normalement oui ! Mais tout ce que je fais ça bug ! Mais tant pis c’est comme ça que j’ai appris depuis que j’ai quinze ans. 
+                Aujourd’hui je sais faire des applications web à-peu-près fonctionnelles avec du Symfony 5, du Vue.js et <span>Nuxt.js</span>. 
+                Je bidouille des choses avec du JavaScript du Python lorsque je m’ennuie, donc pas souvent !</p>
             </div>
         </div>
         <footerbar :dark="true"/>
