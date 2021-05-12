@@ -13,16 +13,19 @@
                 </li>
             </ul>
         </div>
+        <footerbar/>
     </div>
 </template>
 
 <script>
 import datas from '../datas'
 import navbar from '../components/NavBar'
+import footer from '../components/Footer'
 
 export default {
     components: {
-        navbar
+        navbar,
+        footerbar: footer
     },
     data () {
         return {

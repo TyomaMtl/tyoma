@@ -29,9 +29,18 @@
                 <p>{{ $t('skilled') }}</p>
             </div>
         </div>
-        <footer>&copy; 2020-2021 - coded with love</footer>
+        <footerbar :dark="true"/>
     </div>
 </template>
+
+<script>
+import footer from '../components/Footer'
+export default {
+    components: {
+        footerbar: footer
+    }
+}
+</script>
 
 <style scoped>
 .navbar {
