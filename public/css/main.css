@@ -89,6 +89,30 @@ p {
 }
 
 
+/* BY SIDE */
+.byside {
+    position: fixed;
+    top: 50vh; left: 80px;
+    font-family: 'Oranienbaum';
+    font-size: 16px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg) translateY(50%);
+    letter-spacing: 1px;
+    line-height: 24px;
+    cursor: default;
+}
+.byside:after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 30px;
+}
+.byside.light { color: #FFF; }
+.byside.light:after { background-color: #FFF; }
+.byside.dark { color: var(--dark); }
+.byside.dark:after { background-color: var(--dark); }
+
+
 /* ARTICLE */
 .article h1 {
     margin-bottom: 50px;

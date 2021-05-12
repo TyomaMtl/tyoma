@@ -1,6 +1,7 @@
 <template>
     <div>
         <navbar/>
+        <div class="byside dark">Here I talk</div>
         <div class="wrapper blog">
             <h1 class="main">Blog</h1>
             <ul>

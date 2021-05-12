@@ -15,6 +15,7 @@
                 </div>
             </div>
             <div class="jumbo">
+                <div class="byside light">Who I am ?</div>
                 <h1>{{ $t('jumbo') }}</h1>
             </div>
         </div>

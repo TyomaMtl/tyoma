@@ -1,6 +1,7 @@
 <template>
     <div>
         <navbar/>
+        <div class="byside dark">Here I talk</div>
         <div class="article-info">
             <router-link class="back" :to="{ name: 'blog' }"><i class="icon-back"></i> {{ $t('back') }}</router-link>
             <div>
