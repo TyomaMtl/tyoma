@@ -24,4 +24,10 @@ footer {
 }
 footer.dark { background: var(--dark); }
 footer.light { background: #FFF; }
+@media screen and (max-width: 480px) {
+    footer {
+        padding: 20px 20px 20px 20px;
+        text-align: center;
+    }
+}
 </style>

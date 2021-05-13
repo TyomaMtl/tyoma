@@ -88,4 +88,8 @@ export default {
     text-transform: uppercase;
     color: #FFF;
 }
+@media only screen and (max-width: 480px) {
+    .navbar { padding: 20px 20px 20px 20px; }
+    .navbar > .navigation > a { margin-right: 15px; }
+}
 </style>

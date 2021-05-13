@@ -42,4 +42,10 @@
 }
 .navbar > a:first-child:hover:after, .navbar > a:last-child:hover:after { width: 100%; }
 .navbar > a:last-child{ text-align: right; }
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        padding: 30px 20px 50px 20px;
+    }
+}
 </style>
