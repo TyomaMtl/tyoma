@@ -78,6 +78,13 @@ p {
     color: #FFF;
     text-decoration: none;
 }
+.about a:before {
+    content: '//';
+    margin-left: -35px;
+    margin-right: 25px;
+    font-style: normal;
+    letter-spacing: normal;
+}
 .about p {
     letter-spacing: 0.5px;
     line-height: 30px;
