@@ -1,4 +1,4 @@
-# Déployer une app Nuxt.js SSR sur un hébergement mutualisé
+# Déployer une application Nuxt.js sur un hébergement mutualisé
 
 En général, les hébergements mutualisés, serveurs partagés ou _share hosting_ en anglais, sont des serveurs _Apache_ avec _PHP_ installé par défaut. Lorsqu'on souhaite déployer une application qui fonctionne entièrement en _JavaScript_, côté client et côté serveur, les choses se compliquent. Tel est le cas pour une application _Nuxt.js_.
 
@@ -49,7 +49,7 @@ RewriteRule ^(.*) "http://127.0.0.1:3000/$2" [P,L]
 ```
 
 ## Lancer l'application avec pm2
-Si nous fermons notre terminal, notre serveur s'arrête. Nous allons donc lancer le serveur avec la commande `pm2 start` plutôt que `npm run start`. On peut lire sur la documentation (https://nuxtjs.org/docs/2.x/deployment/deployment-pm2) qu'il faut ajouter un fichier `ecosystem.config.js` dans lequel on ajoutera :
+Si nous fermons notre terminal, notre serveur s'arrête. Nous allons donc lancer le serveur avec la commande `pm2 start` plutôt que `npm run start`. On peut lire sur la [documentation](https://nuxtjs.org/docs/2.x/deployment/deployment-pm2) qu'il faut ajouter un fichier `ecosystem.config.js` dans lequel on ajoutera :
 
 ```js
 module.exports = {
@@ -69,7 +69,7 @@ Nous pouvons lancer notre serveur avec la commande suivante : `pm2 start`.
 
 ### _All good !!_
 
-### Sources :
-- Node sur serveur partagé : [https://stackoverflow.com/questions/33322946/install-nodejs-on-shared-server](https://stackoverflow.com/questions/33322946/install-nodejs-on-shared-server])
-- Redirection locahost : [https://stackoverflow.com/questions/56054713/nuxt-js-server-deployment-how-to-redirect-url-to-localhost3000-using-htaccess](https://stackoverflow.com/questions/56054713/nuxt-js-server-deployment-how-to-redirect-url-to-localhost3000-using-htaccess)
-- pm2 configuration : [https://nuxtjs.org/docs/2.x/deployment/deployment-pm2](https://nuxtjs.org/docs/2.x/deployment/deployment-pm2)
+### Sources
+- [Node sur serveur partagé](https://stackoverflow.com/questions/33322946/install-nodejs-on-shared-server])
+- [Redirection locahost](https://stackoverflow.com/questions/56054713/nuxt-js-server-deployment-how-to-redirect-url-to-localhost3000-using-htaccess)
+- [pm2 configuration](https://nuxtjs.org/docs/2.x/deployment/deployment-pm2)

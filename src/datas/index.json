@@ -1,9 +1,9 @@
 {
     "articles": [
         {
-            "id": "deployer-nuxt-app-ssr-hebergement-mutualise",
+            "id": "deployer-nuxt-app-hebergement-mutualise",
             "number": "002",
-            "title": "Déployer une app Nuxt.js SSR sur un hébergement mutualisé",
+            "title": "Déployer une application Nuxt.js sur un hébergement mutualisé",
             "date": "19 avril 2021",
             "tags": ["vue.js", "nuxt.js", "hosting"],
             "lang": "fr",
