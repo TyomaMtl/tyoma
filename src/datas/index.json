@@ -2,6 +2,7 @@
     "articles": [
         {
             "id": "deployer-nuxt-app-ssr-hebergement-mutualise",
+            "number": "002",
             "title": "Déployer une app Nuxt.js SSR sur un hébergement mutualisé",
             "date": "19 avril 2021",
             "tags": ["vue.js", "nuxt.js", "hosting"],
@@ -10,6 +11,7 @@
         },
         {
             "id": "vuejs-markdown-blog",
+            "number": "001",
             "title": "Markdown blog avec Vue.js",
             "date": "5 décembre 2020",
             "tags": ["vue.js", "markdown"],

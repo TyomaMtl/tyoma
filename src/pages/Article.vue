@@ -2,15 +2,6 @@
     <div>
         <navbar/>
         <div class="byside dark">Here I talk</div>
-        <div class="article-info">
-            <router-link class="back" :to="{ name: 'blog' }"><i class="icon-back"></i> {{ $t('back') }}</router-link>
-            <div>
-                <p><br>{{ article.lang == 'fr' ? 'Traine your french' : 'This article is in english'}}</p>
-                <div class="tags">
-                    <span v-for="tag in article.tags" :key="tag">#{{ tag }}</span>
-                </div>
-            </div>
-        </div>
         <div class="wrapper article">
             <div class="date">{{ article.date }}</div>
             <markdown/>

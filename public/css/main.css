@@ -101,7 +101,9 @@ p {
     font-size: 40px;
 }
 .wrapper h1.main {
+    font-family: 'Oranienbaum';
     font-size: 80px;
+    text-transform: uppercase;
 }
 
 
@@ -132,6 +134,7 @@ p {
 /* ARTICLE */
 .article h1 {
     margin-bottom: 50px;
+    font-family: 'Oranienbaum';
     font-size: 50px;
     text-align: center;
 }
@@ -160,6 +163,7 @@ p {
 .article a {
     font-weight: bold;
     text-decoration: none;
+    color: var(--dark);
     border-bottom: 1px dotted var(--dark);
 }
 .article > .date {
@@ -192,67 +196,52 @@ p {
 }
 
 
-/* ARTICLE INFO */
-.article-info {
-    display: block;
-    position: fixed;
-    top: 60px;
-    left: 100px;
-    width: 200px;
-}
-.article-info > .back {
-    display: inline-block;
-    padding: 0 15px 0 15px;
-    height: 30px;
-    line-height: 30px;
-    font-family: "Heebo";
-    font-size: 14px;
-    color: #8a8a8a;
-    vertical-align: bottom;
-    text-transform: uppercase;
-    text-decoration: none;
-    border: 1px solid #ECECEC;
-    border-radius: 15px;
-    transition-duration: 0.2s;
-}
-.article-info > .back:hover {
-    color: var(--dark);
-    border: 1px solid #444;
-}
-.article-info > div > .tags span {
-    margin-right: 2px;
-    padding: 2px 8px 2px 8px;
-    font-family: "Heebo";
-    font-size: 12px;
-    border-radius: 1em;
-    background-color: var(--dark);
-    color: #FFF;
-    cursor: default;
-}
-
-
 /* CARD */
 .card { 
+    position: relative;
     margin-top: 50px;
+    padding-bottom: 25px;
     list-style: none; 
 }
-.card > .date {
-    color: #b4b4b4;
-    font-style: italic;
-}
-.card p:first-child {
+.card p.number {
     font-family: 'Oranienbaum';
     font-size: 18px;
     font-style: italic;
     letter-spacing: 0.5px;
 }
-.card a {
+.card p.description {
+    font-family: 'Heebo';
+    font-size: 14px;
+    line-height: 22px;
+    color: #363636;
+}
+.card a.link {
     font-size: 30px;
     text-decoration: none;
     transition-duration: 0.2s;
     color: var(--dark);
     border-bottom: 1px dotted var(--dark);
 }
+.card a.more {
+    position: absolute;
+    right: 0; bottom: 0;
+    width: 80px;
+    font-family: 'Heebo';
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--dark);
+}
+.card a.more:after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 1px;
+    background-color: var(--dark);
+    transition: ease-out 0.2s;
+
+}
+.card a.more:hover:after { width: 100%; }
 
 
 /* PROJECTS */

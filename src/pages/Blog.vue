@@ -6,10 +6,10 @@
             <h1 class="main">Blog</h1>
             <ul>
                 <li class="card" v-for="article in articles" :key="article.id">
-                    <p>Article nr. 001</p>
-                    <router-link :to="{ name: 'article', params: { id: article.id }}">{{ article.title }}</router-link>
-                    <p class="date"><i class="icon-clock"></i> {{ article.date }}</p>
-                    <p>{{ article.description }}</p>
+                    <p class="number">Article nr. {{ article.number }}</p>
+                    <router-link class="link" :to="{ name: 'article', params: { id: article.id }}">{{ article.title }}</router-link>
+                    <p class="description">{{ article.description }}</p>
+                    <router-link class="more" :to="{ name: 'article', params: { id: article.id }}">Read more</router-link>
                 </li>
             </ul>
         </div>
