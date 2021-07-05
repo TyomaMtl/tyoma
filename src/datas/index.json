@@ -45,14 +45,6 @@
             "technologies": ["Symfony 5", "Javascript"]
         },
         {
-            "id": "a-la-carte",
-            "title": "À la carte",
-            "year": "2019",
-            "url": "https://a-lacarte.com",
-            "cover": "https://source.unsplash.com/fk6IiypMWss",
-            "technologies": ["Vue.js", "Symfony 5", "API Platform"]
-        },
-        {
             "id": "thepetrolhead",
             "title": "The Petrolhead",
             "year": "2017",
