@@ -199,10 +199,12 @@ p {
     margin-top: 20px;
 }
 .article code {
-    padding: 5px 10px 5px 10px;
     font-size: 14px;
     background-color: #eaeef3;
     border-radius: 0.5em;
+}
+.article p code {
+    padding: 5px 10px 5px 10px;
 }
 .article a {
     font-weight: bold;
